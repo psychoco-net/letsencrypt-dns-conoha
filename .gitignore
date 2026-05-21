@@ -1,0 +1,11 @@
+# Credentials (copy .env.example to .env and fill in real values)
+.env
+
+# Runtime logs (may contain domain names and validation tokens)
+conoha_dns.log
+conoha_dns.log.*
+*.log
+
+# Certificates / keys (safety net in case they are placed here)
+*.pem
+*.key
